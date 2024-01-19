@@ -30,14 +30,14 @@ nav {
 }
 
 .logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px; 
     height: auto;
 }
 
 ul {
     list-style: none;
     display: flex;
-    align-items: center; /* Align items vertically in the middle */
+    align-items: center; 
 }
 
 ul li {
@@ -46,15 +46,15 @@ ul li {
 }
 
 ul li:first-child {
-    margin-right: auto; /* Move all items except the logo to the right */
+    margin-right: auto; 
 }
 
 ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px; /* Adjust the font size as needed */
-    letter-spacing: 1px; /* Add letter-spacing for better readability */
-    transition: color 0.3s ease-in-out; /* Added transition for color change */
+    font-size: 16px; 
+    letter-spacing: 1px; 
+    transition: color 0.3s ease-in-out; 
 }
 
 ul li::before {
@@ -62,18 +62,18 @@ ul li::before {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0; /* Initial state: lines are not visible */
+    width: 0; 
     height: 2px;
-    background-color: #FF4081; /* Replace with your logo color */
-    transition: width 0.3s ease-in-out; /* Added transition for line animation */
+    background-color: #FF4081; 
+    transition: width 0.3s ease-in-out; 
 }
 
 ul li:hover::before {
-    width: 100%; /* Lines expand to the right on hover */
+    width: 100%; 
 }
 
 ul li:hover a {
-    color: #FF4081; /* Change the color as needed */
+    color: #FF4081;
 }
 
 .header-text {
@@ -107,7 +107,7 @@ ul li:hover a {
 
 .about-col-1 img {
     width: 100%;
-    max-width: 100%; /* Make sure the image doesn't exceed its natural size */
+    max-width: 100%;
     border-radius: 15px;
 }
 
@@ -139,14 +139,14 @@ ul li:hover a {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0; /* Initial state: lines are not visible */
+    width: 0; 
     height: 3px;
     background: #ff004f;
     transition: none;
 }
 
 .tab-links:hover::before {
-    width: 100%; /* Lines expand to the right on hover */
+    width: 100%; 
 }
 
 .tab-links.active-link::before {
@@ -154,18 +154,18 @@ ul li:hover a {
 }
 
 .tab-links:hover {
-    color: #FF4081; /* Change the color as needed */
+    color: #FF4081; 
 }
 
 .tab-contents ul li {
     list-style: none;
     margin: 5px;
     font-size: 20px;
-    transition: none; /* Added transition for color change */
+    transition: none; 
 }
 
 .tab-contents ul li:hover {
-    color: #FF4081; /* Change the color as needed */
+    color: #FF4081; 
 }
 
 .tab-contents {
@@ -193,7 +193,7 @@ ul li:hover a {
     background: #262626;
     padding: 40px;
     font-size: 13px;
-    font-weight: 300; /* Fix: 'font-weight' was incorrectly written as 'font' */
+    font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
@@ -205,7 +205,7 @@ ul li:hover a {
 
 .services-list div h2 {
     font-size: 30px;
-    font-weight: 500; /* Fix: 'font-weight' was incorrectly written as 'font' */
+    font-weight: 500; 
     margin-bottom: 15px;
 }
 
