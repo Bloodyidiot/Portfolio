@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header .container {
+    padding: 10px 10%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Align items vertically in the middle */
+}
+
+ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+ul li:first-child {
+    margin-right: auto; /* Move all items except the logo to the right */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* Adjust the font size as needed */
+    letter-spacing: 1px; /* Add letter-spacing for better readability */
+    transition: color 0.3s ease-in-out; /* Added transition for color change */
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Initial state: lines are not visible */
+    height: 2px;
+    background-color: #FF4081; /* Replace with your logo color */
+    transition: width 0.3s ease-in-out; /* Added transition for line animation */
+}
+
+ul li:hover::before {
+    width: 100%; /* Lines expand to the right on hover */
+}
+
+ul li:hover a {
+    color: #FF4081; /* Change the color as needed */
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #FF4081;
+}
+
+#About {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    max-width: 100%; /* Make sure the image doesn't exceed its natural size */
+    border-radius: 15px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.subtitle {
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Initial state: lines are not visible */
+    height: 3px;
+    background: #ff004f;
+    transition: none;
+}
+
+.tab-links:hover::before {
+    width: 100%; /* Lines expand to the right on hover */
+}
+
+.tab-links.active-link::before {
+    width: 50%;
+}
+
+.tab-links:hover {
+    color: #FF4081; /* Change the color as needed */
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    transition: none; /* Added transition for color change */
+}
+
+.tab-contents ul li:hover {
+    color: #FF4081; /* Change the color as needed */
+}
+
+.tab-contents {
+    align-items: center;
+}
+
+.tab-contents ul li span {
+    font-size: 25px;
+    align-items: start;
+}
+
+/* Services */
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300; /* Fix: 'font-weight' was incorrectly written as 'font' */
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500; /* Fix: 'font-weight' was incorrectly written as 'font' */
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+}

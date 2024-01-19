@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3c770b8c2a.js" crossorigin="anonymous"></script>
+    <style>
+        /* Your additional CSS styles go here */
+
+        .tab-contents {
+            display: none;
+        }
+
+        .active-tab {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Yogesh</span><br>From India</br></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/2pic.jpg" alt="About Me" class="about-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>"As an aspiring software engineer, I embark on a coding journey to build transformative digital solutions. Armed with a thirst for knowledge and a knack for problem-solving, I craft elegant, efficient code to bring ideas to fruition. Eager to contribute my skills and embrace the challenges of the dynamic tech landscape."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link one" onclick="opentab('education')">Education</p>
+                        <p class="tab-links one" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links one" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul class="skills-list">
+                            <li>
+                                <span style="color: #b54769;">SSLC</span><br>
+                                I scored 79.4% in the Tamil Nadu State Board examinations at Ayira Vaisya Matriculation School in Paramakudi, Ramanathapuram, India.
+                            </li>
+                            <li>
+                                <span style="color: #b54769;">Higher Secondary</span><br>
+                                I scored 84.66% in the Tamil Nadu State Board examinations at S.N.V.Government Higher Secondary School in Paramakudi, Ramanathapuram, India.
+                            </li>
+                            <li>
+                                <span style="color: #b54769;">Under Graduate</span><br>
+                                I am Currently Pursuing Third Year with 7.5CGPA
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul class="skills-list">
+                            <li>
+                                <span style="color: #b54769;">Your Experience 1</span><br>
+                                Description for your experience.
+                            </li>
+                            <li>
+                                <span style="color: #b54769;">Your Experience 2</span><br>
+                                Description for your experience.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul class="skills-list">
+                            <li>
+                                <span style="color: #b54769;">Microsoft Office</span><br>
+                                As an aspiring software engineer, my proficiency extends beyond coding, encompassing a versatile skill set that includes mastery of Microsoft Office.
+                                With a keen eye for detail and a flair for effective communication, I excel in crafting compelling ideas and proposals.
+                                Whether it's drafting documents in Word, creating impactful presentations in PowerPoint, or managing data with Excel, I leverage my Microsoft Office skills to articulate innovative solutions and bring ideas to life.
+                            </li>
+                            <li>
+                                <span style="color: #b54769;">Web Development</span><br>
+                                As a dedicated web developer, I immerse myself in the dynamic world of coding, constantly pushing the boundaries to create innovative and user-centric digital experiences.
+                                Proficient in HTML, CSS, and JavaScript, I bring ideas to life by designing and developing responsive and visually appealing websites.
+                                My passion for clean, efficient code ensures that every project is not just functional but also showcases a commitment to excellence in web development.
+                            </li>
+                            <li>
+                                <span style="color: #b54769;">Tally ERP 9</span><br>
+                                In addition to my web development skills, I am well-versed in Tally ERP 9, a powerful tool for efficient business management.
+                                With a meticulous approach to financial data, I leverage Tally to streamline accounting processes, ensuring accuracy and compliance.
+                                From ledger management to financial reporting, my proficiency in Tally ERP 9 contributes to the seamless functioning of financial aspects, allowing businesses to thrive in an organized and systematic manner.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------------------------------sevices--------------------->
+   <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Your additional CSS styles go here */
+
+        .tab-contents {
+            display: none;
+        }
+
+        .active-tab {
+            display: block;
+        }
+
+        /* Services */
+        #service {
+            padding: 30px 0;
+        }
+
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 40px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your existing HTML code -->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe fa-spin-pulse"></i>
+                    <h2>Web design</h2>
+                    <p>describe about web design</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-microsoft fa-fade"></i>  
+                    <h2>Microsoft Office</h2>
+                    <p>describe about web design</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-invoice fa-fade"></i>
+                    <h2>Tally Erp9</h2>
+                    <p>describe about web design</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+                tabcontents[i].classList.remove("active-tab");
+            }
+
+            for (var i = 0; i < tabcontents.length; i++) {
+                if (tabcontents[i].id === tabname) {
+                    tablinks[i].classList.add("active-link");
+                    tabcontents[i].classList.add("active-tab");
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+                tabcontents[i].classList.remove("active-tab");
+            }
+
+            for (var i = 0; i < tabcontents.length; i++) {
+                if (tabcontents[i].id === tabname) {
+                    tablinks[i].classList.add("active-link");
+                    tabcontents[i].classList.add("active-tab");
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
