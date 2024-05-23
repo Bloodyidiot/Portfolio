@@ -1,15 +1,13 @@
-# Hi there 👋, I'm Ranjith!
+# Hi there 👋, I'm Yogesh R!
 
-🚀 Full Stack Developer passionate about crafting digital experiences.
+🚀 Frontend Developer passionate about crafting digital experiences.
 
-🔭 Currently working on exciting projects using MERN Stack.
-
-🌱 Learning GraphQL and Next.js.
+🌱 Learning new things.
 
 💬 Ask me about JavaScript, React, Node.js, MongoDB, Express.js.
 
-📫 Reach me at: ranjithp5841@gmail.com
+📫 Reach me at: yogeshpmk1@gmail.com
 
-Connect with me on https://www.linkedin.com/in/ranjithp007/
+Connect with me on [https://www.linkedin.com/in/yogeshr/](https://www.linkedin.com/in/yogesh-r-38b34625b/)
 
 # portfolio1
